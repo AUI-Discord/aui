@@ -21,13 +21,14 @@ export default function Forms() {
                     </Card>
                 </Link>
 
-                <Card>
-                    <CardHeader>
-                        <CardTitle>Mod Application</CardTitle>
-                        <CardDescription>Fill this form to apply for a moderator position</CardDescription>
-                    </CardHeader>
-                </Card>
-
+                <Link href='/forms/modration'>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Mod Application</CardTitle>
+                            <CardDescription>Fill this form to apply for a moderator position</CardDescription>
+                        </CardHeader>
+                    </Card>
+                </Link>
             </div>
         </div>
     )
